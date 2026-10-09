@@ -1,0 +1,16 @@
+# Firebase web app config (Firebase console → Project settings → Your apps)
+VITE_FIREBASE_API_KEY=AIzaSyCyvJFZpvMywXpc2l3P_JUzBxoWljiZYzU
+VITE_FIREBASE_AUTH_DOMAIN=le-inspa.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=le-inspa
+VITE_FIREBASE_STORAGE_BUCKET=le-inspa.firebasestorage.app
+VITE_FIREBASE_MESSAGING_SENDER_ID=388163612325
+VITE_FIREBASE_APP_ID=1:388163612325:web:03e606bee83b5fea6d674c
+
+# Cloud Functions region (must match functions/src/index.js)
+VITE_FIREBASE_FUNCTIONS_REGION=us-central1
+
+# Google Places Autocomplete (Maps JavaScript API + Places API enabled)
+VITE_GOOGLE_MAPS_API_KEY=
+
+# Set to "true" to point the app at the local Firebase emulators
+VITE_USE_EMULATORS=false
